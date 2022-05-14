@@ -9,7 +9,9 @@
             "email": "linenko.maxim@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "ramsey/collection": "^1.2"
+    },
     "autoload": {
         "psr-4": {
             "MaxLZp\\Messaging\\": "src/",
