@@ -1,0 +1,22 @@
+{
+    "name": "maxlzp/messaging-php",
+    "description": "Simple messaging system template",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Linenko",
+            "email": "linenko.maxim@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MaxLZp\\Messaging\\": "src/",
+            "MaxLZp\\Messaging\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
